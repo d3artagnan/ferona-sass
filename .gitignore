@@ -1,2 +1,9 @@
+*.pyc
+*.egg-info
+*.db
+*.db.old
+*.swp
+*.db-journal
+
 .idea/*
 .svn/*
