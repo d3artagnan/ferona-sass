@@ -1,0 +1,30 @@
+// Basic Colors
+@import "colors/ambers";
+@import "colors/black";
+@import "colors/blues";
+@import "colors/browns";
+@import "colors/grays";
+@import "colors/greens";
+@import "colors/limes";
+@import "colors/oranges";
+@import "colors/peaches";
+@import "colors/pinks";
+@import "colors/purples";
+@import "colors/reds";
+@import "colors/tans";
+@import "colors/turquoise";
+@import "colors/whites";
+@import "colors/yellows";
+
+// Base
+$base-color-primary : $amber;
+$base-color-secondary : $blueAzure;
+$base-color-tertiary : $purpleVerona;
+
+// Tints and Shades
+$base-color-primary-tinted : mix(white, $base-color-primary, 10%);
+$base-color-primary-shaded : mix(black, $base-color-primary, 10%);
+
+// Opacity and Transparency
+
+// Contrast and Accessibility
