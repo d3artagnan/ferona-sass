@@ -17,13 +17,13 @@
 @import "colors/yellows";
 
 // Base
-$base-color-primary : $amber;
-$base-color-secondary : $blueAzure;
-$base-color-tertiary : $purpleVerona;
+$color-primary : $amber;
+$color-secondary : $blueAzure;
+$color-tertiary : $purpleVerona;
 
 // Tints and Shades
-$base-color-primary-tinted : mix(white, $base-color-primary, 10%);
-$base-color-primary-shaded : mix(black, $base-color-primary, 10%);
+$color-primary-tinted : mix(white, $color-primary, 10%);
+$color-primary-shaded : mix(black, $color-primary, 10%);
 
 // Opacity and Transparency
 
